@@ -1360,4 +1360,48 @@ var mix = [0,55,"apple","mango"]
 
  //chapter # 38-42 Task no. # 2
 
- 
+//  var year = +prompt("enter year")
+//  if (year % 100 === 0 || year % 400 === 0 || year % 4 === 0){
+//      alert("leap year")
+
+//  }
+//  else{
+//      alert("sorry")
+//  }
+
+ //chapter # 38-42 Task no. # 3
+//  var s = 0;
+//  function calS(a,b,c){
+//      s = a+b+c
+//      s = s/2
+
+//  }
+//  calS(5,5,5)
+//  console.log(s)
+
+//  function area(a,b,c){
+//     a = s-a
+//     b = s-b
+//     c = s-c
+//     var d = a*b*c
+//     s = s*d
+//  }
+//  area(5,5,5);
+//  console.log(s)
+
+//chapter # 38-42 Task no. # 4
+
+var sub1 = +prompt("Enter subject 1 Marks")
+var sub2 = +prompt("Enter subject 2 Marks")
+var sub3 = +prompt("Enter subject 3 Marks")
+var totalMarks = 300;
+function avr(a,b,c){
+     var tol = a+b+c
+    return tol/3
+}
+var s = avr(sub1,sub2,sub3)
+console.log(s)
+
+function perc(){
+    
+}
