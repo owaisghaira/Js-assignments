@@ -1391,17 +1391,37 @@ var mix = [0,55,"apple","mango"]
 
 //chapter # 38-42 Task no. # 4
 
-var sub1 = +prompt("Enter subject 1 Marks")
-var sub2 = +prompt("Enter subject 2 Marks")
-var sub3 = +prompt("Enter subject 3 Marks")
-var totalMarks = 300;
-function avr(a,b,c){
-     var tol = a+b+c
-    return tol/3
-}
-var s = avr(sub1,sub2,sub3)
-console.log(s)
+// var sub1 = +prompt("Enter subject 1 Marks")
+// var sub2 = +prompt("Enter subject 2 Marks")
+// var sub3 = +prompt("Enter subject 3 Marks")
+// var tol;
+// var percentage;
+// var total = 300;
+// function avr(a,b,c){
+//      tol = a+b+c
+//     return tol/3
+// }
+// var avrR = avr(sub1,sub2,sub3)
+// console.log(avrR)
 
-function perc(){
-    
-}
+// function perc(d){
+//     percentage = d * 3 * 100 / 300;
+//      return percentage;   
+// }
+// var perR = perc(avrR);
+// console.log(perR);  
+
+///chapter # 38-42 Task no. # 5
+
+// var ex = "Example";
+// console.log(ex.indexOf("m"))
+
+// //chapter # 38-42 Task no. # 6
+// var string = "heelloo world";
+// function vowels(){
+
+//  return string.replace( /[aeiou]/g, '' );
+// }
+// console.log(vowels()); 
+
+///chapter # 38-42 Task no. # 7
