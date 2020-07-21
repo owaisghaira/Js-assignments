@@ -1425,3 +1425,56 @@ var mix = [0,55,"apple","mango"]
 // console.log(vowels()); 
 
 ///chapter # 38-42 Task no. # 7
+// var text = "Pleases read this application and give me gratuity"
+// function findOccurrences() {
+//     var res = text.math(/[aeiou]{2}/g);
+//     return res;
+//   }
+  
+//   var found = findOccurrences();
+  
+//   console.log(found);
+
+///chapter # 38-42 Task no. # 8
+
+// function conMeter(a){
+//     return a*1000
+// }
+// var re = conMeter(prompt("enter km "))
+// alert(re+" Meters")
+
+
+// function conFeet(a){
+//     return a*3280.8
+// }
+// var re = conFeet(prompt("enter km "))
+// alert(re+" Feet")
+
+// function conInch(a){
+//     return a* 39370.078740157
+// }
+// var re = conInch(prompt("enter km "))
+// alert(re+" Inches")
+
+// function conCentimeter(a){
+//     return a* 100000
+// }
+// var re = conCentimeter(prompt("enter km "))
+// alert(re+" Centimeter")
+
+//chapter # 43-48 Task no. # 1
+// function on(){
+
+//      alert("hello")
+//  }
+
+//chapter # 43-48 Task no. # 2
+
+// function al(){
+//     alert("Thanks for purchasing...")
+// }
+
+//chapter # 43-48 Task no. # 4
+
+// In html coding
+
