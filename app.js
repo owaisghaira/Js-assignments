@@ -1478,7 +1478,7 @@ var mix = [0,55,"apple","mango"]
 
 // In html coding
 
-//chapter # 49-52 Task no. # 1
+//chapter # 49-52 Task no. # 1 or 3
 function submit(){
     var nam = document.getElementById("name-input")
     var h = document.createElement("h3")
@@ -1490,15 +1490,26 @@ function submit(){
     var text1 = document.createTextNode(nam1.value)
     p.appendChild(text1)
 
-    var button = document.createElement("button")
+    var delbtn = document.createElement("button")
     var text1 = document.createTextNode("Delete")
-    button.appendChild(text1)
+    delbtn.appendChild(text1)
+    delbtn.setAttribute("onclick","delet(this)")
+
+    var li = document.createElement("li")
+    li.appendChild(h)
+    li.appendChild(p)
+    li.appendChild(delbtn)
+
     
     var layout = document.getElementById("layout")
-    layout.appendChild(h)
-    layout.appendChild(p)
-    layout.appendChild(button)
+    layout.appendChild(li)
     nam.value = "";
     nam1.value = "";
+
 }
+function delet(e){
+    e.parentNode.remove();
+}
+
+//chapter # 49-52 Task no. # 2
 
