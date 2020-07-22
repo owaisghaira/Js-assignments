@@ -1478,3 +1478,27 @@ var mix = [0,55,"apple","mango"]
 
 // In html coding
 
+//chapter # 49-52 Task no. # 1
+function submit(){
+    var nam = document.getElementById("name-input")
+    var h = document.createElement("h3")
+    var text = document.createTextNode(nam.value)
+    h.appendChild(text)
+
+    var nam1 = document.getElementById("email-input")
+    var p = document.createElement("p")
+    var text1 = document.createTextNode(nam1.value)
+    p.appendChild(text1)
+
+    var button = document.createElement("button")
+    var text1 = document.createTextNode("Delete")
+    button.appendChild(text1)
+    
+    var layout = document.getElementById("layout")
+    layout.appendChild(h)
+    layout.appendChild(p)
+    layout.appendChild(button)
+    nam.value = "";
+    nam1.value = "";
+}
+
