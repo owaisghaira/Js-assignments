@@ -1474,42 +1474,80 @@ var mix = [0,55,"apple","mango"]
 //     alert("Thanks for purchasing...")
 // }
 
+//chapter # 43-48 Task no. # 3
+
+// function itemDelete(e){
+//    var a = (e.parentNode);
+//    a.parentNode.remove();
+
+// }
+
 //chapter # 43-48 Task no. # 4
 
 // In html coding
 
 //chapter # 49-52 Task no. # 1 or 3
-function submit(){
-    var nam = document.getElementById("name-input")
-    var h = document.createElement("h3")
-    var text = document.createTextNode(nam.value)
-    h.appendChild(text)
+// function submit(){
+//     var nam = document.getElementById("name-input")
+//     var h = document.createElement("h3")
+//     var text = document.createTextNode(nam.value)
+//     h.appendChild(text)
 
-    var nam1 = document.getElementById("email-input")
-    var p = document.createElement("p")
-    var text1 = document.createTextNode(nam1.value)
-    p.appendChild(text1)
+//     var nam1 = document.getElementById("email-input")
+//     var p = document.createElement("p")
+//     var text1 = document.createTextNode(nam1.value)
+//     p.appendChild(text1)
 
-    var delbtn = document.createElement("button")
-    var text1 = document.createTextNode("Delete")
-    delbtn.appendChild(text1)
-    delbtn.setAttribute("onclick","delet(this)")
+//     var delbtn = document.createElement("button")
+//     var text1 = document.createTextNode("Delete")
+//     delbtn.appendChild(text1)
+//     delbtn.setAttribute("onclick","delet(this)")
 
-    var li = document.createElement("li")
-    li.appendChild(h)
-    li.appendChild(p)
-    li.appendChild(delbtn)
+//     var li = document.createElement("li")
+//     li.appendChild(h)
+//     li.appendChild(p)
+//     li.appendChild(delbtn)
 
     
-    var layout = document.getElementById("layout")
-    layout.appendChild(li)
-    nam.value = "";
-    nam1.value = "";
+//     var layout = document.getElementById("layout")
+//     layout.appendChild(li)
+//     nam.value = "";
+//     nam1.value = "";
 
-}
-function delet(e){
-    e.parentNode.remove();
-}
+// }
+// function delet(e){
+//     e.parentNode.remove();
+// }
 
 //chapter # 49-52 Task no. # 2
+
+// function readMore(){
+//     var n = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, nobis, obcaecati, quia tempore rerum dolorum velit illum ratione accusamus atque alias ducimus praesentium reprehenderit unde nihil tempora pariatur corrupti inventore!"
+//     var text = document.getElementById("para");
+//     text.innerHTML = n
+
+// }
+
+//chapter # 52-58 Task no. # 1
+
+// function showImage(e){
+//     var m = document.getElementById("modalimage")
+//     m.src = e.src
+// }
+
+//chapter # 52-58 Task no. # 2
+
+// function zoomIn(){
+
+//     var i = document.getElementById("text")
+//     i.className = "zomin"
+
+// }
+// function zoomout(){
+//     var i = document.getElementById("text")
+//     i.className = "zomout"
+    
+// }
+
+
 
