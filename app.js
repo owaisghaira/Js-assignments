@@ -1549,5 +1549,25 @@ var mix = [0,55,"apple","mango"]
     
 // }
 
+//chapter # 58-67 Task no. # 1(i)
+// var item = document.childNodes[1].childNodes[2].childNodes[3].childNodes[5]
+// console.log(item);
+
+
+// //chapter # 58-67 Task no. # 1(ii)
+
+// var item = document.childNodes[1].childNodes[2].childNodes[3].childNodes[5];
+// document.write(item.innerHTML)
+
+// //chapter # 58-67 Task no. # 1(iii)
+
+// var item = document.childNodes[1].childNodes[2].childNodes[3].childNodes[5]
+// var x = item.getElementsByClassName("render");
+// console.log(x)
+
+// //chapter # 58-67 Task no. # 1(iv)
+
+var item = document.getElementById("first-name");
+item.value = "aaa";
 
 

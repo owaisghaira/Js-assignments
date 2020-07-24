@@ -1,0 +1,19 @@
+.im {
+    width: 200px;
+    height: 200px;
+  }
+
+  .bg-im {
+    width: 450px;
+    height: 350px;
+  }
+
+  .zomin {
+    font-size: 200%;
+
+  }
+
+  .zomout {
+    font-size: 50%;
+
+  }
